@@ -1,0 +1,11 @@
+#anchor{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: #faedcd;
+  color: black;
+  border: 2px solid #faedcd;
+  border-radius: 10%;
+}
