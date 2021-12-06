@@ -1,0 +1,73 @@
+#heading{
+  color: black;
+  text-align: center;
+}
+
+.hand{
+  width: 15%;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 40%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand{
+  background: red;
+}
+
+.min-hand{
+  background: black;
+}
+
+.clock-face{
+  padding:5%;
+}
+
+.clock{
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 2%;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+#body{
+  background-image: url(https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-size: cover;
+}
+
+
+.divs2{
+  margin-left: 30px;
+  width: 90px;
+  height: 100px;
+  border: 2px solid grey;
+  background-color: black;
+  display: inline-block;
+}
+
+.divgap{
+  width:5px;
+  display: inline-block;
+}
+.divs3{
+  width: 90px;
+  height: 100px;
+  border: 2px solid grey;
+  background-color: black;
+  display: inline-block;
+}
+
+.divs4{
+  margin-left: 60%;
+  width: 290px;
+  height: 100px;
+  border: 2px solid grey;
+  background-color: black;
+  display: inline-block;
+}
