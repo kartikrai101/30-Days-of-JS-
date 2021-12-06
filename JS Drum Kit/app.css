@@ -1,0 +1,32 @@
+#heading{
+  text-align: center;
+  color: white;
+}
+
+#guitar{
+  width: 600px;
+  height: 300px;
+  margin: 25px;
+  display: inline-block;
+}
+
+#drum{
+  width: 600px;
+  height: 300px;
+  margin: 25px;
+  display: inline-block;
+}
+
+#casio{
+  width: 600px;
+  height: 300px;
+  margin: 25px;
+  display: inline-block;
+}
+
+#piano{
+  width: 600px;
+  height: 300px;
+  margin: 25px;
+  display: inline-block;
+}
