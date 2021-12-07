@@ -1,0 +1,36 @@
+#heading{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+:root{
+  --base: black;
+  --spacing: 5px;
+  --blur: 5px;
+}
+
+#a, #b, #c{
+  font-size: 25px;
+}
+
+.image{
+  margin-left: 20%;
+}
+
+img{
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+
+}
+
+html{
+  height: 100%;
+}
+
+#body{
+  border: 10px solid white;
+  min-height: 100%;
+  background-color: #005f73;
+}
