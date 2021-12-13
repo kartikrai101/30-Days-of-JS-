@@ -6119,9 +6119,12 @@ function displayMatches(){
   const matchArray= findMatches(this.value, database);
   const html= matchArray.map(place => {
     return `
-    <li style= "list-style: none;">
-      <span class="name" style="font-size: 25px;">${place.name}, ${place.state}</span>
-    </li>
+    <div style="width: 120%; height: 45px; border: 1px solid grey; background: white; margin: 2px;">
+      <li style= "list-style: none;">
+        <span class="name" style="font-size: 25px; font-family: 'Dancing Script', cursive; ">${place.name}, ${place.state}</span>
+      </li>
+    </div>
+
     `;
   }).join('');
   suggestions.innerHTML=html;
