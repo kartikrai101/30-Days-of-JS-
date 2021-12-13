@@ -7,3 +7,8 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+.hl{
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}

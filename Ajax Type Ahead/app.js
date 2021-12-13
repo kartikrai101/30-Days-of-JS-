@@ -6118,10 +6118,13 @@ function findMatches(wordToMatch, database){
 function displayMatches(){
   const matchArray= findMatches(this.value, database);
   const html= matchArray.map(place => {
+    const regex= new RegExp(this.value, 'gi');
+    const cityName= place.name.replace(regex, `<span class="hl">${this.value}</span>`);
+    const stateName= place.state.replace(regex, `<span class="hl">${this.value}</span>`);
     return `
-    <div style="width: 120%; height: 45px; border: 1px solid grey; background: white; margin: 2px;">
+    <div style="width: 120%; height: 45px; border: 1px solid grey; background: white; margin: 1px;">
       <li style= "list-style: none;">
-        <span class="name" style="font-size: 25px; font-family: 'Dancing Script', cursive; ">${place.name}, ${place.state}</span>
+        <span class="hl">${cityName}, ${stateName}</span>
       </li>
     </div>
 
